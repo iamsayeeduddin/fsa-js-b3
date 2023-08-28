@@ -64,15 +64,41 @@
 // console.log(obj2);
 // console.log(obj2 === obj1);
 
-function sum(a, b, c, ...d) {
-  console.log(d);
-  var mainSum = a + b + c;
-  var sum = 0;
-  for (let i = 0; i < d.length; i++) {
-    sum += d[i];
-  }
-  return mainSum + sum;
-}
+// function sum(a, b, c, ...d) {
+//   console.log(d);
+//   var mainSum = a + b + c;
+//   var sum = 0;
+//   for (let i = 0; i < d.length; i++) {
+//     sum += d[i];
+//   }
+//   return mainSum + sum;
+// }
 
-const res = sum(1, 2, 3, 4, 4, 5);
-console.log(res);
+// const res = sum(1, 2, 3, 4, 4, 5);
+// console.log(res);
+
+// default parameters
+
+// function add(a = 10, b = 30) {
+//   return a + b;
+// }
+
+// console.log(add(undefined, 20));
+
+// Arrow Functions
+
+// const add = (a, b) => a + b;
+
+// console.log(add(20, 20));
+
+// Array Methods
+
+// var arr = [1, 2, 3, 4, 5];
+// console.log(arr.map((elem, index) => console.log(elem, index)));
+
+// console.log(arr.filter((elem) => elem % 2 === 0));
+// console.log(arr.reduce((prev, elem) => (prev -= elem)));
+
+// let str = "Hello World";
+
+// console.log(str.includes("World"));
